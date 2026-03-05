@@ -118,7 +118,7 @@
               <span class="office-detail__icon">&#128205;</span>
               <div>
                 <div class="office-detail__label">Address</div>
-                <div class="office-detail__value">Paarl, Western Cape, South Africa</div>
+                <div class="office-detail__value">Sunningdale, Western Cape, South Africa</div>
               </div>
             </div>
             <div class="office-detail">
@@ -235,14 +235,14 @@
     document.addEventListener('DOMContentLoaded', () => {
       const mapEl = document.getElementById('contactMap');
       if (mapEl) {
-        const map = L.map('contactMap').setView([-33.7271, 18.9706], 14);
+        const map = L.map('contactMap').setView([-33.8010, 18.5210], 14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
           maxZoom: 18,
         }).addTo(map);
 
-        L.marker([-33.7271, 18.9706]).addTo(map)
-          .bindPopup('<strong>Joshua Generation Church</strong><br>Head Office, Paarl')
+        L.marker([-33.8010, 18.5210]).addTo(map)
+          .bindPopup('<strong>Joshua Generation Church</strong><br>Head Office, Sunningdale')
           .openPopup();
       }
 
