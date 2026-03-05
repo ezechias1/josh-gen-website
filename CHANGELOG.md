@@ -98,6 +98,31 @@ Rebuilding [za.joshgen.org](https://za.joshgen.org) as a clean, modern static HT
 - [x] Added favicon (Josh Gen logo) to all 11 pages
 - [x] Homepage hero uses wave/logo image from live site
 
+### Phase 5: UX Polish & Image Cards (Complete)
+- [x] Homepage What's New cards replaced with real images (church-1.jpg, church-2.jpg, dying-to-live.jpg)
+- [x] Homepage Get Connected section redesigned with image-backed cards + dark gradient overlays
+- [x] Nav logo added to all 11 pages (logo.png with CSS filter for navy color)
+- [x] Locations page redesigned: collapsible accordion by province, compact card rows with pin icons
+- [x] "Find Near Me" geolocation button added (Haversine distance, shows nearest 5)
+- [x] Locations search bar + location count indicator
+- [x] New Believers page: 6 emoji icon cards replaced with real image cards
+  - Read the Bible → bible-reading.jpg
+  - Pray Daily → prayer.jpg
+  - Join a Church → sunday-service.jpg (from Josh Gen website)
+  - Get Baptised → baptism.jpg
+  - Join a Community Group → community-group.jpg (from Josh Gen website)
+  - Tell Someone → sharing-faith.jpg
+- [x] Who We Are page: 3 emoji CTA cards replaced with image cards
+  - New Believers → king-kingdom.jpg (from Josh Gen website)
+  - What We Believe → salvation.jpg
+  - Visit Us → edgemead.jpg
+- [x] Contact page: Head office location corrected from Paarl to Sunningdale
+- [x] Responsive improvements for locations page (map height, toolbar stacking, address wrapping)
+
+### Phase 6: Deployment (Complete)
+- [x] Deployed to Vercel as static site
+- [x] Live at: https://josh-gen-website.vercel.app
+
 ### Images Downloaded
 ```
 images/
@@ -122,6 +147,13 @@ images/
 ├── church-6.jpg         (Sermon: Living Faithfully in Babylon - Mike Davies)
 ├── church-7.jpg         (Testimony/profile photo)
 ├── church-8.jpg         (Sermon promo)
+├── bible-reading.jpg    (Person reading Bible - New Believers card)
+├── prayer.jpg           (Prayer hands - New Believers card)
+├── church-service.jpg   (Church worship service)
+├── sunday-service.jpg   (Josh Gen Sunday congregation - from website)
+├── community-group.jpg  (Community group photo - from Josh Gen website)
+├── sharing-faith.jpg    (Friends sharing - New Believers card)
+├── king-kingdom.jpg     (King & Kingdom devotional - from Josh Gen website)
 ├── logo.png             (JG logo white on transparent)
 └── favicon.png          (JG favicon 192x192)
 ```
